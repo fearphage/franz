@@ -58,7 +58,7 @@ export default class AppLayout extends Component {
     areRequiredRequestsSuccessful: PropTypes.bool.isRequired,
     retryRequiredRequests: PropTypes.func.isRequired,
     areRequiredRequestsLoading: PropTypes.bool.isRequired,
-    darkMode: PropTypes.bool.isRequired
+    darkMode: PropTypes.bool.isRequired,
   };
 
   static defaultProps = {
@@ -86,7 +86,7 @@ export default class AppLayout extends Component {
       areRequiredRequestsSuccessful,
       retryRequiredRequests,
       areRequiredRequestsLoading,
-      darkMode
+      darkMode,
     } = this.props;
 
     const { intl } = this.context;

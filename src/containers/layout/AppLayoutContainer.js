@@ -32,7 +32,6 @@ export default class AppLayoutContainer extends Component {
       settings,
       globalError,
       requests,
-      darkMode,
     } = this.props.stores;
 
     const {
